@@ -52,13 +52,13 @@ table {
 }
 
 * {
+    box-sizing: border-box;
 }
 
 /* Body  */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 350px;
     border-radius: 20px;
@@ -84,6 +84,7 @@ img {
     font-size: 12px;
     color: darkblue;
     margin: 14px 0 7px 15px;
+    padding: 8px 0px;
 }
 
 h2 {
@@ -93,10 +94,12 @@ h2 {
     margin-right: 15px;
     margin-top: 7px;
     font-weight: bold;
-    padding: 7px 0 10px 0;
+    padding: 0px 0 10px 0;
+    line-height: 1.2;
 }
 
 p {
     color: rgb(63, 63, 63);
     margin: 10px 15px 15px 15px;
+    line-height: 1.2;
 }
